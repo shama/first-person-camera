@@ -1,0 +1,38 @@
+{
+  "name": "first-person-camera",
+  "version": "1.0.0",
+  "description": "A generic first person camera",
+  "main": "first-person-camera.js",
+  "scripts": {
+    "start": "budo example/example.js --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shama/first-person-camera"
+  },
+  "keywords": [
+    "voxel",
+    "first",
+    "person",
+    "camera",
+    "webgl",
+    "gl",
+    "fps"
+  ],
+  "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shama/first-person-camera/issues"
+  },
+  "homepage": "https://github.com/shama/first-person-camera",
+  "dependencies": {
+    "gl-mat4": "^1.1.2",
+    "gl-vec3": "^1.0.3"
+  },
+  "devDependencies": {
+    "budo": "^1.0.0",
+    "bunny": "^1.0.1",
+    "mesh-viewer": "^1.0.0",
+    "watchify": "^2.4.0"
+  }
+}
