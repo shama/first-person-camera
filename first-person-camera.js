@@ -36,7 +36,7 @@ FirstPersonCamera.prototype.control = function(dt, move, mouse, prevMouse) {
 FirstPersonCamera.prototype.move = function(dir) {
   if (dir[0] !== 0 || dir[1] !== 0 || dir[2] !== 0) {
     var cam = mat4.create()
-    mat4.rotateX(cam, cam, this.rotation[0])
+    //mat4.rotateX(cam, cam, this.rotation[0])
     mat4.rotateY(cam, cam, this.rotation[1])
     vec3.transformMat4(dir, dir, cam)
     vec3.add(this.position, this.position, dir)
