@@ -1,7 +1,7 @@
 {
   "name": "first-person-camera",
   "version": "1.0.0",
-  "description": "A generic first person camera",
+  "description": "A generic first person camera for WebGL.",
   "main": "first-person-camera.js",
   "scripts": {
     "start": "budo example/example.js --verbose"
